@@ -24,3 +24,14 @@ nav {
 }
 
 .nav-link:hover {color: $secondary;}
+
+@media screen and (max-width: 450px) {
+  header {
+    width: 100%;
+  }
+
+  nav {
+    margin-left: 1.8rem;
+    width: 100%;
+  }
+}

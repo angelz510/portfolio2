@@ -23,3 +23,23 @@
   font-size: $small;
   margin-left: 6.25rem;
 }
+
+@media screen and (max-width: 450px) {
+  .home {
+    width: 100%;
+  }
+
+  .home-name {
+    margin-left: 1.8rem;
+  }
+
+  .home-title {
+    margin-left: 1.8rem;
+    margin-right: 1.8rem;
+  }
+
+  .home-description {
+    margin-left: 1.8rem;
+    margin-right: 1.8rem;
+  }
+}

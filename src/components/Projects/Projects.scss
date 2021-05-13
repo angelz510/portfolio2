@@ -4,6 +4,7 @@
   color: $primary;
 }
 
+//CSS PROJECT COMPONENT ('BEHOLD MY STUFF AND DESCRIPTION)
 .projects-title {
   font-size: $large;
   font-weight: bolder;
@@ -13,4 +14,18 @@
 .projects-description {
   font-size: $small;
   margin-left: 6.25rem;
+}
+
+@media screen and (max-width: 450px) {
+  .projects {
+    width: 100%;
+  }
+
+  .projects-title {
+    margin-left: 1.8rem;
+  }
+
+  .projects-description {
+    margin-left: 1.8rem;
+  }
 }
