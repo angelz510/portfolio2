@@ -1,0 +1,26 @@
+@import '../../sass/variables';
+
+header {
+  background-color: black;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-bottom: 0.31rem;
+}
+
+nav {
+  background-color: black;
+  font-size: large;
+  font-weight: bold;
+  margin-left: 6.25rem;
+  padding: 0.94rem 2.5rem 0.94rem 0rem;
+}
+
+.nav-link {
+  color: $primary;
+  padding: 0 3rem 0 0;
+  text-decoration: none;
+}
+
+.nav-link:hover {color: $secondary;}

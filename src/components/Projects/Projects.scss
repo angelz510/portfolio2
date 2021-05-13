@@ -1,0 +1,16 @@
+@import '../../sass/variables';
+
+.projects {
+  color: $primary;
+}
+
+.projects-title {
+  font-size: $large;
+  font-weight: bolder;
+  margin-left: 6.25rem;
+}
+
+.projects-description {
+  font-size: $small;
+  margin-left: 6.25rem;
+}
