@@ -24,22 +24,41 @@
   margin-left: 6.25rem;
 }
 
-@media screen and (max-width: 450px) {
-  .home {
-    width: 100%;
-  }
+// Mobile (iPhone 12 and Pro ,X)
+@media screen 
+  and (max-width: 390px) {
+    .home {
+      width: 100%;
+    }
 
-  .home-name {
-    margin-left: 1.8rem;
-  }
+    .home-name {
+      margin-left: 1.8rem;
+    }
 
-  .home-title {
-    margin-left: 1.8rem;
-    margin-right: 1.8rem;
-  }
+    .home-title {
+      margin-left: 1.8rem;
+      margin-right: 1.8rem;
+    }
 
-  .home-description {
-    margin-left: 1.8rem;
-    margin-right: 1.8rem;
-  }
+    .home-description {
+      margin-left: 1.8rem;
+      margin-right: 1.8rem;
+    }
 }
+
+// iPad
+// @media screen 
+//   and (min-width: 1024px)
+//   and (max-width: 1366px) {
+//     .home-name {
+//       margin-left: 1.5rem;
+//     }
+
+//     .home-title {
+//       margin-left: 1.5rem;
+//     }
+
+//     .home-description {
+//       margin-left: 1.5rem;
+//     }
+//   }

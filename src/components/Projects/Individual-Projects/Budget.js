@@ -12,7 +12,7 @@ const BudgetPls = () => {
 
       <div className='project-info'>
         <p className='project-name'>Budget Pls</p>
-        <p className='project-techs'>Techs Used: React Redux, JS, Sass, Firebase.</p>
+        <p className='project-techs'>Tools: React Redux, JS, Sass, Firebase.</p>
         <p className='project-description'>Budgeting App in which users can create profile; incorporated google login and authentication. 
           <br/>Users can create, search, edit, and remove expenses. 
           <br/>Tested components using jest and styled using Sass.

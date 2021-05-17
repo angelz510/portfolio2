@@ -38,29 +38,43 @@ img {
   font-size: $small;
 }
 
+// Mobile (iPhone 12 and Pro)
+@media screen 
+  and (max-width: 390px) {
+    .project {
+      background-image: linear-gradient(#292929, black);
+      margin-left: 0rem;
+      display: flex;
+      flex-direction: column;
+      width: 100%
+    }
+  
+    img {
+      margin-top: 1.8rem;
+    }
 
-@media screen and (max-width: 450px) {
-  .project {
-    background-image: linear-gradient(#292929, black);
-    margin-left: 0rem;
-    display: flex;
-    flex-direction: column;
+    .project-info {
+      margin-left: 0rem;
+    }
+  
+    .project-name {
+      text-align: center;
+    }
+  
+    .project-techs {
+      margin-left: 1.8rem;
+    }
+
+    .project-description {
+      margin-left: 1.8rem;
+    }
   }
 
-  img {
-    margin-top: 1.8rem;
-  }
-
-  .project-name {
-    margin-left: 1.8rem;
-    text-align: center;
-  }
-
-  .home-title {
-    margin-left: 1.8rem;
-  }
-
-  .home-description {
-    margin-left: 1.8rem;
-  }
-}
+// iPad
+// @media screen 
+//   and (min-width: 1024px)
+//   and (max-width: 1366px) {
+//     .project {
+//       margin-left: 1.5rem;
+//     }
+//   }

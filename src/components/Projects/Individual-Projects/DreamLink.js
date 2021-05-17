@@ -12,7 +12,7 @@ const DreamLink = () => {
 
       <div className='project-info'>
         <p className='project-name'>DreamLink</p>
-        <p className='project-techs'>MERN, RestAPI, JS</p>
+        <p className='project-techs'>Tools: MERN, RestAPI, JS</p>
         <p className='project-description'>Beta project for work/school.  
           <br/>DreamLink allows students to organize scholarships.
           <br/>Users can add, save, and remove scholarships from their list.

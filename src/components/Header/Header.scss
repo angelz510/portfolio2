@@ -13,6 +13,8 @@ nav {
   background-color: black;
   font-size: large;
   font-weight: bold;
+  display: flex;
+  align-items: center;
   margin-left: 6.25rem;
   padding: 0.94rem 2.5rem 0.94rem 0rem;
 }
@@ -35,3 +37,16 @@ nav {
     width: 100%;
   }
 }
+
+// iPad
+// @media screen 
+//   and (min-width: 1024px)
+//   and (max-width: 1366px) {
+//     header {
+//       background-color: black;
+//     }
+//     nav {
+//       background-color: black;
+//       margin-left: 1.5rem;
+//     }
+//   }

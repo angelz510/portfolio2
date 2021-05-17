@@ -11,8 +11,8 @@ const Rps = () => {
       </div>
 
       <div className='project-info'>
-        <p className='project-name'>Rock, Paper, Scissors.</p>
-        <p className='project-techs'>Techs Used: JS, HTML, CSS</p>
+        <p className='project-name'>Rock, Paper, Scissors</p>
+        <p className='project-techs'>Tools: JS, HTML, CSS</p>
         <p className='project-description'>Fun 'rock, paper, scissors game for class. 
           <br/>Classic game where user plays against the computer.
           <br/>Click Here to play!
