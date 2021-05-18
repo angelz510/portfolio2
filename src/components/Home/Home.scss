@@ -1,10 +1,13 @@
 @import '../../sass/variables';
 
 .home {
+  background-color: black;
   color: $primary;
-  padding-top: 1.88rem;
+  display: table-cell;
+  vertical-align: middle;
   height: 100vh;
   width: 100vh;
+  align-items: center;
 }
 
 .home-name {
@@ -15,13 +18,17 @@
 
 .home-title {
   font-size: $large;
-  font-weight: bolder;
+  font-weight: 600;
   margin-left: 6.25rem;
+  margin-top: 3.25rem;
+  margin-bottom: 3.25rem;
 }
 
 .home-description {
   font-size: $small;
   margin-left: 6.25rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
 }
 
 // Mobile (iPhone 12 and Pro ,X)

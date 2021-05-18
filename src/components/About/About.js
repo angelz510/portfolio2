@@ -9,7 +9,6 @@ const About = () => {
       <p className='about-description' >
         <p>Originally from Mexico 🇲🇽 and raised in the Bay Area. In a journey building applications
         while learning new skills.</p>
-        <br/>
         <br/>Curious how technologies work and how they can create an impact in community.
         <p>Focus on creating thoughtful, functional, and intuitive applications.</p>
         <br/>

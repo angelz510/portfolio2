@@ -5,15 +5,22 @@
 }
 
 //CSS PROJECT COMPONENT ('BEHOLD MY STUFF AND DESCRIPTION)
+.projects {
+  padding-top: 3rem;
+}
+
 .projects-title {
   font-size: $large;
   font-weight: bolder;
   margin-left: 6.25rem;
+  margin-bottom: 3rem;
+  margin-top: 2.5rem;
 }
 
 .projects-description {
   font-size: $small;
   margin-left: 6.25rem;
+  margin-bottom: 3rem;
 }
 
 @media screen and (max-width: 450px) {

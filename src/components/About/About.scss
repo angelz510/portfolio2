@@ -4,6 +4,10 @@
   color: $primary;
   height: 100vh;
   width: 100vh;
+  background-color: black;
+
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .about-title {
@@ -16,11 +20,14 @@
   font-size: $small;
   font-weight: 500;
   margin-left: 6.25rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
 }
 
 .about-description {
   font-size: $small;
   margin-left: 6.25rem;
+  margin-bottom: 6rem;
 }
 
 @media screen and (max-width: 450px) {

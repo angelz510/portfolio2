@@ -4,13 +4,21 @@ import './Home.scss';
 const Home = () => {
   return (
     <div className='home'>
-      <p className='home-name' >Hi, I'm Angel.</p>
-      <p className='home-title' >Software Engineer.</p>
-      <p className='home-description' >Front-end web developer who builds tools for community.
-        <p>Eager to learn and grow. </p>
-        <br/>
-        <p>"Need experience for job, need job for experience." -Internet </p>
-      </p>
+      <div>
+        <h2 className='home-name' >Hi, I'm Angel.</h2>
+      </div>
+      <div>
+        <h1 className='home-title' >Software Engineer.</h1>
+      </div>
+      <div>
+        <h3 className='home-description'>Front-end web developer who builds tools for community.</h3>
+      </div>
+      <div>
+        <h3 className='home-description'>Eager to learn and grow.</h3>
+      </div>
+      <div>
+        <h3 className='home-description'>"Need experience for job, need job for experience." -Internet </h3>
+      </div>
     </div>
   );
 };
