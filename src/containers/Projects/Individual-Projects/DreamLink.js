@@ -1,6 +1,6 @@
 import React from 'react';
 import dreamlink from '../../../assets/project-shots/dreamlink.png';
-import '../../../containers/Projects/Projects.scss';
+import '../ProjectComponent.scss';
 
 const DreamLink = () => {
   return (

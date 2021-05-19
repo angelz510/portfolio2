@@ -1,6 +1,6 @@
 import React from 'react';
 import budgetpls from '../../../assets/project-shots/budgetpls.png';
-import '../../../containers/Projects/Projects.scss';
+import '../ProjectComponent.scss';
 
 const BudgetPls = () => {
   return (

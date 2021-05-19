@@ -1,0 +1,21 @@
+@import '../../sass/variables';
+
+//CSS BLOG COMPONENT ('HELLO WORLD')
+.blog {
+  color: $primary;
+  padding-top: 3rem;
+}
+
+.blog-title {
+  font-size: $large;
+  font-weight: bolder;
+  margin-left: 6.25rem;
+  margin-bottom: 3rem;
+  margin-top: 2.5rem;
+}
+
+.blog-description {
+  font-size: $small;
+  margin-left: 6.25rem;
+  margin-bottom: 3rem;
+}

@@ -1,9 +1,9 @@
 import React from 'react';
-import '../Projects/Projects.scss';
-import Budget from '../../components/Projects/Individual-Projects/Budget';
-import Hangry from '../../components/Projects/Individual-Projects/Hangry';
-import DreamLink from '../../components/Projects/Individual-Projects/DreamLink';
-import Rps from '../../components/Projects/Individual-Projects/Rps';
+import './ProjectComponent.scss';
+import Budget from './Individual-Projects/Budget';
+import Hangry from './Individual-Projects/Hangry';
+import DreamLink from './Individual-Projects/DreamLink';
+import Rps from './Individual-Projects/Rps';
 
 const ProjectContainer = () => {
   return (

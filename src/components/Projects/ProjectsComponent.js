@@ -1,8 +1,8 @@
 import React from 'react';
 import ProjectContainer from '../../containers/Projects/ProjectContainer'
-import './Projects.scss';
+import './ProjectsComponent.scss';
 
-const Projects = () => {
+const ProjectsComponent = () => {
   return (
     <div className='projects'>
       <p className='projects-title'>Behold, my stuff.</p>
@@ -12,4 +12,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default ProjectsComponent;

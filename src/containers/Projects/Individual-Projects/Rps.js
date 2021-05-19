@@ -1,6 +1,6 @@
 import React from 'react';
 import rps from '../../../assets/project-shots/rps.png';
-import '../../../containers/Projects/Projects.scss';
+import '../ProjectComponent.scss';
 
 const Rps = () => {
   return (

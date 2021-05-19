@@ -1,6 +1,6 @@
 import React from 'react';
 import hangryimg from '../../../assets/project-shots/hangryimg.png';
-import '../../../containers/Projects/Projects.scss';
+import '../ProjectComponent.scss';
 
 const Hangry = () => {
   return (
