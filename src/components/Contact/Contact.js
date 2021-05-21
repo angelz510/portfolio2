@@ -5,7 +5,24 @@ const Contact = () => {
   return (
     <div className='contact'>
       <p className='contact-title' >Let's Connect.</p>
-      <form action="https://formsubmit.co/angelzrod4@gmail.com" method="POST">
+      <div className='socials-container'>
+        <div>
+          <a href="https://www.linkedin.com/in/arodriguezz/" target="_blank" rel="noopener noreferrer">
+            <button className="social">
+              LinkedIn
+            </button>
+          </a>
+        </div>
+        <div>
+          <a href="https://github.com/angelz510" target="_blank" rel="noopener noreferrer">
+            <button className="social">
+              GitHub
+            </button>
+          </a>
+        </div>
+      </div>
+
+      <form action="https://formsubmit.co/angelzrod4@gmail.com" method="POST" target="_blank">
 
         <div className='form-label'>
           <label>Name:</label>

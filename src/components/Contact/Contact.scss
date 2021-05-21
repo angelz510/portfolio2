@@ -5,6 +5,23 @@ form {
   color: $primary;
 }
 
+.socials-container {
+  display: flex;
+  margin-left: 6.25rem;
+  margin-bottom: 3rem;
+}
+
+.social {
+  background-color: rgba(27,27,27,.91);
+  border-style: none;
+  border-radius: .63rem;
+  color: $primary;
+  font-size: medium;
+  margin-right: 1rem;
+  cursor: pointer;
+  padding: .5rem;
+}
+
 .contact {
   color: $primary;
   height: 100vh;
