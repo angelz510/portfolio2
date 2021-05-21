@@ -1,0 +1,35 @@
+.skills-container {
+  margin-left: 6.25rem;
+  width: 50%;
+  margin-bottom: 1rem;
+}
+
+.card-title {
+  font-size: large;
+  margin-top: .5rem;
+}
+
+.about-skills {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-top: .3rem;
+}
+
+.image-style {
+  width: 3rem;
+  height: 3rem;
+}
+
+.about-skill-name {
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+  margin-right: 1rem;
+}
+
+.skill-name {
+  text-decoration: none;
+  color: inherit;
+}
+

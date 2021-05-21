@@ -5,10 +5,10 @@ const Home = () => {
   return (
     <div className='home'>
       <div>
-        <h2 className='home-name' >Hi, I'm Angel.</h2>
+        <h2 className='home-name'>Hi, I'm Angel.</h2>
       </div>
       <div>
-        <h1 className='home-title' >Software Engineer.</h1>
+        <h1 className='home-title'>Software Engineer.</h1>
       </div>
       <div>
         <h3 className='home-description'>Front-end web developer who builds tools for community.</h3>

@@ -4,9 +4,9 @@ import './About.scss';
 const About = () => {
   return (
     <div className='about'>
-      <p className='about-title' >Knowledge Driven.</p>
-      <p className='about-name' >I'm Angel Rodriguez.</p>
-      <p className='about-description' >
+      <p className='about-title'>Knowledge Driven.</p>
+      <p className='about-name'>I'm Angel Rodriguez.</p>
+      <p className='about-description'>
         <p>Originally from Mexico 🇲🇽 and raised in the Bay Area. In a journey building applications
         while learning new skills.</p>
         <br/>Curious how technologies work and how they can create an impact in community.

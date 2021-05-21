@@ -8,7 +8,8 @@ import Portfolio from './Individual-Projects/Portfolio';
 
 const ProjectContainer = () => {
   return (
-    <div className='ProjectContainer'>
+    <div className='project-container'>
+      <h1>Projects</h1>
       <Budget/>
       <Portfolio/>
       <DreamLink/>

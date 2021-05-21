@@ -1,22 +1,80 @@
 @import '../../sass/variables';
 
-// .about {
-//   color: $primary;
-// }
+form {
+  background-color: black;
+  color: $primary;
+}
 
-// .about-title {
-//   font-size: $large;
-//   font-weight: bolder;
-//   margin-left: 100px;
-// }
+.contact {
+  color: $primary;
+  height: 100vh;
+  width: 100vh;
+  background-color: black;
+  display: table-cell;
+  vertical-align: middle;
+}
 
-// .about-name {
-//   font-size: $small;
-//   font-weight: 500;
-//   margin-left: 100px;
-// }
+.contact-title {
+  font-size: $large;
+  font-weight: bolder;
+  margin-left: 6.25rem;
+  margin-bottom: 3rem;
+}
 
-// .about-description {
-//   font-size: $small;
-//   margin-left: 100px;
-// }
+.form-label {
+  font-size: $small;
+  font-weight: 500;
+  margin-left: 6.25rem;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-input {
+  color: $primary;
+  background-color: rgba(27,27,27,.91);
+  border-radius: .63rem;
+  border-style: none;
+  border-width: .06rem;
+  max-width: 40.6rem;
+  display: block;
+  width: 100%;
+  height: 2.4rem;
+  padding: 1rem .75rem;
+  margin-top: .63rem;
+  margin-bottom: .63rem;
+  font-size: $small;
+  outline: none;
+}
+
+.form-input-msg {
+  color: $primary;
+  background-color: rgba(27,27,27,.91);
+  border-radius: .63rem;
+  border-style: none;
+  border-width: .06rem;
+  max-width: 40.6rem;
+  width: 100%;
+  font: inherit;
+  height: 8rem;
+  padding: 1rem .75rem;
+  margin-top: .63rem;
+  margin-bottom: .63rem;
+  font-size: $small;
+  outline: none;
+}
+
+.form-submit {
+  background-color: rgba(27,27,27,.91);
+  border: none;
+  border-radius: .75rem;
+  color: $secondary;
+  cursor: pointer;
+  margin-left: 6.25rem;
+  min-height: 3rem;
+  min-width: 7.4rem;
+  margin-top: .63rem;
+  outline: inherit;
+  font-size: 1.13rem;
+  font-weight: 500;
+  padding: 0;
+}

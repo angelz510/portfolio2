@@ -26,7 +26,9 @@ export default (
         <Route path='/blog' component={ BlogComponent }/>
       </Fade>
       
-      <Route path='/contact' component={ Contact }/>
+      <Fade bottom>
+        <Route path='/contact' component={ Contact }/>
+      </Fade>
     </div>
   </Switch>
 );
