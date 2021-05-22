@@ -34,3 +34,29 @@
   color: inherit;
 }
 
+//Mobile
+@media screen and (max-width: 450px) {
+  .skills-container {
+    margin: auto;
+    width: 85%;
+    text-align: center;
+    background-color: black;
+  }
+
+  .image-style {
+    width: 1.8rem;
+    height: 1.8rem;
+    margin-top: .3rem;
+  }
+
+  .about-skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    margin: auto;
+    text-align: center;
+    align-items: center;
+  }
+
+}

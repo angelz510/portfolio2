@@ -95,3 +95,30 @@ form {
   font-weight: 500;
   padding: 0;
 }
+
+//Mobile
+@media screen and (max-width: 450px) {
+  .contact-title {
+    margin-left: 1.8rem;
+  }
+
+  .socials-container {
+    margin-left: 1.8rem;
+  }
+
+  .form-label {
+    margin-left: 1.8rem;
+  }
+
+  .form-input {
+    width: 90%;
+  }
+
+  .form-input-msg {
+    width: 90%;
+  }
+
+  .form-submit {
+    margin-left: 1.8rem;
+  }
+}

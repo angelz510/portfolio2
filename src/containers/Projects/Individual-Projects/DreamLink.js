@@ -19,7 +19,7 @@ const DreamLink = () => {
           <br/>App was made for DACA students in hopes to connect them to private scholarships.
         </p>
       </div>
-      
+      <hr className='project-hr'></hr>
     </div>
   );
 };

@@ -18,7 +18,7 @@ const BudgetPls = () => {
           <br/>Tested components using jest and styled using Sass.
         </p>
       </div>
-      
+      <hr className='project-hr'></hr>
     </div>
   );
 };

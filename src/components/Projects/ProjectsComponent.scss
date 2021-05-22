@@ -20,29 +20,20 @@
   margin-bottom: 2rem;
 }
 
+//Mobile
 @media screen and (max-width: 450px) {
   .projects {
-    width: 100%;
+    background-color: black;
   }
 
   .projects-title {
-    margin-left: 1.8rem;
+    margin-left: 1.5rem;
+    // background-color: black;
+    // width: 100%;
   }
 
   .projects-description {
-    margin-left: 1.8rem;
+    margin-left: 1.5rem;
+    // background-color: black;
   }
 }
-
-// iPad
-// @media screen 
-//   and (min-width: 1024px)
-//   and (max-width: 1366px) {
-//     .projects-title {
-//       margin-left: 1.5rem;
-//     }
-    
-//     .projects-description {
-//       margin-left: 1.5rem;
-//     }
-//   }

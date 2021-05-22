@@ -17,10 +17,8 @@ export default (
       <Fade bottom>
         <Route path='/about' component={ About }/>
       </Fade>
-    
-      <Fade bottom>
+
         <Route path='/projects' component={ ProjectsComponent }/>
-      </Fade>
 
       <Fade bottom>
         <Route path='/blog' component={ BlogComponent }/>

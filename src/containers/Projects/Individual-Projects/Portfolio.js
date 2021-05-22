@@ -17,7 +17,7 @@ const Portfolio = () => {
           <br/>Explored and practiced different packages; react-reveal, parallax, and Bootstrap.
         </p>
       </div>
-      
+      <hr className='project-hr'></hr>
     </div>
   );
 };

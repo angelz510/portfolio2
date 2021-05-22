@@ -18,62 +18,17 @@
   }
 }
 
-// Mobile (iPhone 12 and Pro)
-@media screen 
-  and (min-width: 390px) 
-  and (max-width: 844px) {
-    .App {
-      background-attachment: fixed;
-      background-color: black;
-      background-image:linear-gradient(0deg, #000, transparent 90%, transparent), url('./assets/cover/wportrait.png');
-      background-position: 75% 50% {
-        background-position-x: 66%;
-        background-position-y: 50%;
-      }
-      background-repeat: no-repeat;
-      background-size: cover;
-      
-      min-height: 100%;
-      width: 100%;
-      height: 100%;
+// Mobile
+@media screen and (max-width: 450px) {
+  .app {
+    background-attachment: fixed;
+    background-color: black;
+    background-image: linear-gradient(0deg, #000, transparent 50%), url('./assets/cover/wportrait.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 74% 0px {
+      background-position-x: 74%;
+      background-position-y: 0px;
     }
+  }
 }
-
-// iPhone X
-@media screen
-  and (min-width: 375px) 
-  and (max-width: 812px) {
-    .App {
-      background-attachment: fixed;
-      background-color: black;
-      background-image:linear-gradient(0deg, #000, transparent 90%, transparent), url('./assets/cover/wportrait.png');
-      background-position: 75% 50% {
-        background-position-x: 66%;
-        background-position-y: 50%;
-      }
-      background-repeat: no-repeat;
-      background-size: cover;
-      
-      min-height: 100%;
-      width: 100%;
-      height: 100%;
-    }
-}
-
-// iPad
-// @media screen 
-//   and (min-width: 1024px)
-//   and (max-width: 1366px) {
-//     .App {
-//       background-attachment: fixed;
-//       background-color: black;
-//       background-image: linear-gradient(0deg, #000, transparent 90%, transparent), url('./assets/cover/wportrait.png');
-//       background-position: bottom right;
-//       background-repeat: no-repeat;
-//       background-size: cover;
-      
-//       min-height: 100%;
-//       width: 100%;
-//       height: 100%;
-//     }
-//   }

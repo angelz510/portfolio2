@@ -18,7 +18,7 @@ const Hangry = () => {
           <br/>Level 1/2 returns deliveries, 3/4 deliveries + walking distance, 5 walking distance.
         </p>
       </div>
-      
+      <hr className='project-hr'></hr>
     </div>
   );
 };

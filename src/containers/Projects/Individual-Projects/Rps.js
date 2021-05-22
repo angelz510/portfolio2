@@ -18,7 +18,7 @@ const Rps = () => {
           <br/>Click Here to play!
         </p>
       </div>
-      
+      <hr className='project-hr'></hr>
     </div>
   );
 };
