@@ -1,15 +1,15 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Nav.scss';
 
 const Header = () => {
   return (
     <div className='nav-menu'>
-      <a className='nav-link' href='/'>Home</a>
-      <a className='nav-link' href='/about'>About</a>
-      <a className='nav-link' href='/projects'>Projects</a>
+      <Link className='nav-link' to={'/'}>Home</Link>
+      <Link className='nav-link' to={'/about'}>About</Link>
+      <Link className='nav-link' to={'/projects'}>Projects</Link>
       {/* <a className='nav-link' href='/blog'>Blog</a> */}
-      <a className='nav-link' href='/contact'>Contact</a>
+      <Link className='nav-link' to={'/contact'}>Contact</Link>
     </div>
   );
 };
