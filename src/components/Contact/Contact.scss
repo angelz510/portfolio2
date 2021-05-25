@@ -63,6 +63,12 @@ form {
   outline: none;
 }
 
+.form-label-msg {
+  margin-left: 6.25rem;
+  display: flex;
+  flex-direction: column;
+}
+
 .form-input-msg {
   color: $primary;
   background-color: rgba(27,27,27,.91);

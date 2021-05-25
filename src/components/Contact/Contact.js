@@ -34,9 +34,9 @@ const Contact = () => {
           <input className='form-input' name="email" type="email" placeholder="Enter your email address" maxlength="256" required/>
         </div>
 
-        <div className='form-label'>
+        <div className='form-label-msg'>
           <label>Message:</label>
-          <input className='form-input' name="message" placeholder="Enter your message" maxlength="5000" required/>
+          <textarea className='form-input-msg' name="message" placeholder="Enter your message" maxlength="5000" required></textarea>
         </div>
 
         <input className='form-submit' type="submit" value="Submit"/>
