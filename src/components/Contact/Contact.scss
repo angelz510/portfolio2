@@ -64,6 +64,8 @@ form {
 }
 
 .form-label-msg {
+  font-size: $small;
+  font-weight: 500;
   margin-left: 6.25rem;
   display: flex;
   flex-direction: column;
