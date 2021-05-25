@@ -13,7 +13,7 @@ const Skills = () => {
               <div className='about-skills'>
                 {skills.frontend.map((skill, index) => (
                   <span className="about-skill-name" key={`${skill.skillName}${index}`}>
-                    <a className="skill-name" href={skill.link} target="_blank" >
+                    <a className="skill-name" href={skill.link} target="_blank" rel='noreferrer'>
                       <img src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style"></img> 
                       <div>{skill.skillName}</div>
                     </a>
@@ -27,7 +27,7 @@ const Skills = () => {
             <div className='about-skills'>
               {skills.backend.map((skill, index) => (
                 <span className="about-skill-name" key={`${skill.skillName}${index}`}>
-                  <a className="skill-name" href={skill.link} target="_blank" >
+                  <a className="skill-name" href={skill.link} target="_blank" rel='noreferrer'>
                     <img src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style"></img> 
                     <div>{skill.skillName}</div>
                   </a>
@@ -41,7 +41,7 @@ const Skills = () => {
             <div className='about-skills'>
               {skills.programmingLanguages.map((skill, index) => (
                 <span className="about-skill-name" key={`${skill.skillName}${index}`}>
-                  <a className="skill-name" href={skill.link} target="_blank" >
+                  <a className="skill-name" href={skill.link} target="_blank" rel='noreferrer'>
                     <img src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style"></img> 
                     <div>{skill.skillName}</div>
                   </a>
@@ -55,7 +55,7 @@ const Skills = () => {
             <div className='about-skills'>
               {skills.hostingPlatforms.map((skill, index) => (
                 <span className="about-skill-name" key={`${skill.skillName}${index}`}>
-                  <a className="skill-name" href={skill.link} target="_blank" >
+                  <a className="skill-name" href={skill.link} target="_blank" rel='noreferrer'>
                     <img src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style"></img> 
                     <div>{skill.skillName}</div>
                   </a>
@@ -69,7 +69,7 @@ const Skills = () => {
             <div className='about-skills'>
               {skills.databases.map((skill, index) => (
                 <span className="about-skill-name" key={`${skill.skillName}${index}`}>
-                  <a className="skill-name" href={skill.link} target="_blank" >
+                  <a className="skill-name" href={skill.link} target="_blank" rel='noreferrer'>
                     <img src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style"></img> 
                     <div>{skill.skillName}</div>
                   </a>
@@ -83,7 +83,7 @@ const Skills = () => {
             <div className='about-skills'>
               {skills.versionControl.map((skill, index) => (
                 <span className="about-skill-name" key={`${skill.skillName}${index}`}>
-                  <a className="skill-name" href={skill.link} target="_blank" >
+                  <a className="skill-name" href={skill.link} target="_blank" rel='noreferrer'>
                     <img src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style"></img> 
                     <div>{skill.skillName}</div>
                   </a>

@@ -16,6 +16,9 @@ const Portfolio = () => {
         <p className='project-description'>First sample portfolio built using React. 
           <br/>Explored and practiced different packages; react-reveal, parallax, and Bootstrap.
         </p>
+        <a href='https://angelz510.github.io/myportfolio/' target='_blank' rel='noreferrer'>
+          <button className='source-code'>Check it out!</button>
+        </a>
       </div>
       <hr className='project-hr'></hr>
     </div>

@@ -17,6 +17,9 @@ const Hangry = () => {
           <br/>Users can create a profile and search restaurants near school (General Assembly).
           <br/>Level 1/2 returns deliveries, 3/4 deliveries + walking distance, 5 walking distance.
         </p>
+        <a href='https://github.com/angelz510/Hangry' target='_blank' rel='noreferrer'>
+          <button className='source-code'>Source Code</button>
+        </a>
       </div>
       <hr className='project-hr'></hr>
     </div>

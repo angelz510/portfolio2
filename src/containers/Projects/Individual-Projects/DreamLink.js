@@ -18,6 +18,9 @@ const DreamLink = () => {
           <br/>Users can add, save, and remove scholarships from their list.
           <br/>App was made for DACA students in hopes to connect them to private scholarships.
         </p>
+        <a href='https://git.generalassemb.ly/angelz510/dreamlink-frontend' target='_blank' rel='noreferrer'>
+          <button className='source-code'>Source Code</button>
+        </a>
       </div>
       <hr className='project-hr'></hr>
     </div>

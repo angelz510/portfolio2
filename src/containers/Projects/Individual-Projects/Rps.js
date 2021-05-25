@@ -17,6 +17,9 @@ const Rps = () => {
           <br/>Classic game where user plays against the computer.
           <br/>Click Here to play!
         </p>
+        <a href='https://pages.git.generalassemb.ly/angelz510/Project-0-Rock-Paper-Scissors/' target='_blank' rel='noreferrer'>
+          <button className='source-code'>Check it out!</button>
+        </a>
       </div>
       <hr className='project-hr'></hr>
     </div>

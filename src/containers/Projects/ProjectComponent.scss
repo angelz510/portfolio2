@@ -48,6 +48,18 @@ img {
   font-size: $small;
 }
 
+.source-code {
+  background-color: rgba(27,27,27,.91);
+  border-style: none;
+  border-radius: .63rem;
+  color: $primary;
+  font-size: medium;
+  margin-top: .5rem;
+  margin-right: 1rem;
+  cursor: pointer;
+  padding: .5rem;
+}
+
 //Mobile
 @media screen and (max-width: 450px) {
   .project-container {

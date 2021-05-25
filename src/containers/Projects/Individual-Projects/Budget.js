@@ -17,6 +17,9 @@ const BudgetPls = () => {
           <br/>Users can create, search, edit, and remove expenses. 
           <br/>Tested components using jest and styled using Sass.
         </p>
+        <a href='https://budget-pls.herokuapp.com/' target='_blank' rel='noreferrer'>
+          <button className='source-code'>Check it out!</button>
+        </a>
       </div>
       <hr className='project-hr'></hr>
     </div>
