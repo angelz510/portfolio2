@@ -49,11 +49,11 @@ const Skills = () => {
               ))}
             </div>
 
-          {/* Hosting Platforms */}
-          <div className='card-title'>Hosting Platforms</div>
+          {/* Databases */}
+          <div className='card-title'>Databases</div>
           <hr />
             <div className='about-skills'>
-              {skills.hostingPlatforms.map((skill, index) => (
+              {skills.databases.map((skill, index) => (
                 <span className="about-skill-name" key={`${skill.skillName}${index}`}>
                   <a className="skill-name" href={skill.link} target="_blank" rel='noreferrer'>
                     <img src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style"></img> 
@@ -63,11 +63,11 @@ const Skills = () => {
               ))}
             </div>
 
-          {/* Databases */}
-          <div className='card-title'>Databases</div>
+          {/* Hosting Platforms */}
+          <div className='card-title'>Hosting Platforms</div>
           <hr />
             <div className='about-skills'>
-              {skills.databases.map((skill, index) => (
+              {skills.hostingPlatforms.map((skill, index) => (
                 <span className="about-skill-name" key={`${skill.skillName}${index}`}>
                   <a className="skill-name" href={skill.link} target="_blank" rel='noreferrer'>
                     <img src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style"></img> 

@@ -24,6 +24,7 @@ import L_JAVASCRIPT from "../../assets/skills/javascript.svg";
 //import L_TYPESCRIPT from "../../assets/skills/typescript.svg";
 //import L_GOLANG from "../../assets/skills/go-6.svg";
 import L_PYTHON from "../../assets/skills/python.svg";
+import L_NETLIFY from "../../assets/skills/netlify-icon.svg";
 
 export const skills = {
   frontend: [
@@ -139,6 +140,12 @@ export const skills = {
       imgAltText: "GitHub Pages",
       imgSrc: L_GITHUB_PAGES,
       skillName: "GitHub Pages",
+    },
+    {
+      link: "https://www.netlify.com/",
+      imgAltText: "Netlify",
+      imgSrc: L_NETLIFY,
+      skillName: "Netlify",
     },
   ],
   programmingLanguages: [
