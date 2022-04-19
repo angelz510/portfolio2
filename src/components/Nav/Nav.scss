@@ -1,4 +1,4 @@
-@import '../../sass/variables';
+@import "../../sass/variables";
 
 .nav-menu {
   align-items: center;
@@ -24,7 +24,9 @@
   text-decoration: none;
 }
 
-.nav-link:hover {color: $secondary;}
+.nav-link:focus {
+  color: $secondary;
+}
 
 @media screen and (max-width: 450px) {
   .nav-menu {

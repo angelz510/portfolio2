@@ -1,5 +1,5 @@
-//import L_HTML5 from "../../assets/skills/html-5.svg";
-//import L_CSS3 from "../../assets/skills/css3.svg";
+import L_HTML5 from "../../assets/skills/html-5.svg";
+import L_CSS3 from "../../assets/skills/css3.svg";
 import L_SASS from "../../assets/skills/sass-1.svg";
 import L_BOOTSTRAP from "../../assets/skills/bootstrap-4.svg";
 import L_REACT from "../../assets/skills/react.svg";
@@ -28,23 +28,35 @@ import L_NETLIFY from "../../assets/skills/netlify-icon.svg";
 
 export const skills = {
   frontend: [
-    // {
-    //   link: "https://en.wikipedia.org/wiki/HTML5",
-    //   imgAltText: "HTML 5",
-    //   imgSrc: L_HTML5,
-    //   skillName: "HTML5",
-    // },
-    // {
-    //   link: "https://medium.com/beginners-guide-to-mobile-web-development/whats-new-in-css-3-dcd7fa6122e1",
-    //   imgAltText: "CSS 3",
-    //   imgSrc: L_CSS3,
-    //   skillName: "CSS3",
-    // },
+    {
+      link: "https://reactjs.org/",
+      imgAltText: "React JS",
+      imgSrc: L_REACT,
+      skillName: "React JS",
+    },
+    {
+      link: "https://redux.js.org/",
+      imgAltText: "Redux",
+      imgSrc: L_REDUX,
+      skillName: "Redux",
+    },
     {
       link: "https://www.javascript.com/",
       imgAltText: "JavaScript",
       imgSrc: L_JAVASCRIPT,
       skillName: "JavaScript",
+    },
+    {
+      link: "https://en.wikipedia.org/wiki/HTML5",
+      imgAltText: "HTML 5",
+      imgSrc: L_HTML5,
+      skillName: "HTML5",
+    },
+    {
+      link: "https://medium.com/beginners-guide-to-mobile-web-development/whats-new-in-css-3-dcd7fa6122e1",
+      imgAltText: "CSS 3",
+      imgSrc: L_CSS3,
+      skillName: "CSS3",
     },
     {
       link: "https://sass-lang.com/",
@@ -57,18 +69,6 @@ export const skills = {
       imgAltText: "Bootstrap",
       imgSrc: L_BOOTSTRAP,
       skillName: "Bootstrap",
-    },
-    {
-      link: "https://reactjs.org/",
-      imgAltText: "React JS",
-      imgSrc: L_REACT,
-      skillName: "React JS",
-    },
-    {
-      link: "https://redux.js.org/",
-      imgAltText: "Redux",
-      imgSrc: L_REDUX,
-      skillName: "Redux",
     },
     // {
     //   link: "https://reacttraining.com/react-router/",
@@ -94,7 +94,6 @@ export const skills = {
       imgSrc: L_STYLED_COMPONENTS,
       skillName: "styled-components",
     },
-    
   ],
   backend: [
     {

@@ -1,17 +1,21 @@
-@import '../../sass/variables';
+@import "../../sass/variables";
 
 //CSS FOR INDIVIDUAL PROJECT COMPONENTS
 .project-container {
   margin-left: 6.25rem;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 h1 {
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 .project {
-  background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,1));
+  background-image: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1)
+  );
   display: flex;
   align-items: center;
   align-self: center;
@@ -32,7 +36,7 @@ img {
 }
 
 .project-name {
-  font-size: $medium;
+  font-size: 1.5rem;
   font-weight: bolder;
   margin-top: 0;
 }
@@ -49,15 +53,20 @@ img {
 }
 
 .source-code {
-  background-color: rgba(27,27,27,.91);
+  background-color: rgba(27, 27, 27, 0.91);
   border-style: none;
-  border-radius: .63rem;
+  border-radius: 0.63rem;
   color: $primary;
   font-size: medium;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
   margin-right: 1rem;
   cursor: pointer;
-  padding: .5rem;
+  padding: 0.5rem;
+}
+
+.source-code:hover {
+  background-color: rgba(73, 72, 72, 0.91);
+  color: $secondary;
 }
 
 //Mobile
@@ -68,20 +77,20 @@ img {
     width: 90%;
     text-align: center;
     background-color: black;
-    }
-
-    .project {
-      background-image: linear-gradient(#292929, black);
-      display: flex;
-      flex-direction: column;
-    }
-
-    .project-description {
-      text-align: left;
-    }
-
-    .project-hr {
-      margin-top: .5rem;
-      width: 50%;
-    }
   }
+
+  .project {
+    background-image: linear-gradient(#292929, black);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-description {
+    text-align: left;
+  }
+
+  .project-hr {
+    margin-top: 0.5rem;
+    width: 50%;
+  }
+}

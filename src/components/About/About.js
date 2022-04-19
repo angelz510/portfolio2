@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="about">
       <p className="about-title">Knowledge Driven.</p>
-      <p className="about-name">I'm Angelzzzzz Rodriguez.</p>
+      <p className="about-name">I'm Angel Rodriguez.</p>
       <p className="about-description">
         <p>
           Originally from Mexico 🇲🇽 and raised in the Bay Area. Enjoy building

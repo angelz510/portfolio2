@@ -1,4 +1,4 @@
-@import '../../sass/variables';
+@import "../../sass/variables";
 
 form {
   background-color: black;
@@ -11,15 +11,34 @@ form {
   margin-bottom: 3rem;
 }
 
-.social {
-  background-color: rgba(27,27,27,.91);
+.social-l {
+  background-color: #0a65c2;
   border-style: none;
-  border-radius: .63rem;
+  border-radius: 0.63rem;
   color: $primary;
   font-size: medium;
   margin-right: 1rem;
   cursor: pointer;
-  padding: .5rem;
+  padding: 0.5rem;
+}
+
+.social-l:hover {
+  background-color: #004a94;
+}
+
+.social-g {
+  background-color: rgba(27, 27, 27, 0.91);
+  border-style: none;
+  border-radius: 0.63rem;
+  color: $primary;
+  font-size: medium;
+  margin-right: 1rem;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.social-g:hover {
+  background-color: rgba(49, 49, 49, 0.91);
 }
 
 .contact {
@@ -48,17 +67,17 @@ form {
 
 .form-input {
   color: $primary;
-  background-color: rgba(27,27,27,.91);
-  border-radius: .63rem;
+  background-color: rgba(27, 27, 27, 0.91);
+  border-radius: 0.63rem;
   border-style: none;
-  border-width: .06rem;
+  border-width: 0.06rem;
   max-width: 40.6rem;
   display: block;
   width: 100%;
   height: 2.4rem;
-  padding: 1rem .75rem;
-  margin-top: .63rem;
-  margin-bottom: .63rem;
+  padding: 1rem 0.75rem;
+  margin-top: 0.63rem;
+  margin-bottom: 0.63rem;
   font-size: $small;
   outline: none;
 }
@@ -73,36 +92,41 @@ form {
 
 .form-input-msg {
   color: $primary;
-  background-color: rgba(27,27,27,.91);
-  border-radius: .63rem;
+  background-color: rgba(27, 27, 27, 0.91);
+  border-radius: 0.63rem;
   border-style: none;
-  border-width: .06rem;
+  border-width: 0.06rem;
   max-width: 40.6rem;
   width: 100%;
   font: inherit;
   font-weight: 400;
   height: 8rem;
-  padding: 1rem .75rem;
-  margin-top: .63rem;
-  margin-bottom: .63rem;
+  padding: 1rem 0.75rem;
+  margin-top: 0.63rem;
+  margin-bottom: 0.63rem;
   font-size: $small;
   outline: none;
 }
 
 .form-submit {
-  background-color: rgba(27,27,27,.91);
+  background-color: rgba(27, 27, 27, 0.91);
   border: none;
-  border-radius: .75rem;
+  border-radius: 0.75rem;
   color: $secondary;
   cursor: pointer;
   margin-left: 6.25rem;
   min-height: 3rem;
   min-width: 7.4rem;
-  margin-top: .63rem;
+  margin-top: 0.63rem;
   outline: inherit;
   font-size: 1.13rem;
   font-weight: 500;
   padding: 0;
+}
+
+.form-submit:hover {
+  background-color: rgba(73, 72, 72, 0.91);
+  color: $secondary;
 }
 
 //Mobile
