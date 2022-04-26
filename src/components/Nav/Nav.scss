@@ -1,12 +1,13 @@
 @import "../../sass/variables";
 
-.nav-menu {
+.web-nav-menu {
   align-items: center;
   padding-top: 0.94rem;
   padding-bottom: 0.94rem;
-  display: block;
-  margin-right: 6.25rem;
-  margin-left: 6.25rem;
+  padding-left: 6.25rem;
+  display: flex;
+  // margin-right: 6.25rem;
+  // margin-left: 6.25rem;
   position: fixed;
   z-index: 1000;
   background-color: black;
@@ -28,13 +29,42 @@
   color: $secondary;
 }
 
+.mobile-nav-menu {
+  display: none;
+}
+
 @media screen and (max-width: 450px) {
-  .nav-menu {
-    margin-left: 1.5rem;
+  .web-nav-menu {
+    display: none;
+  }
+
+  .mobile-nav-menu {
+    display: flex;
+    align-items: center;
+    opacity: 0.9;
+    background-color: black;
+    color: white;
+    top: 0;
+    height: 15%;
     width: 100%;
   }
 
-  .nav-link {
-    margin-right: 2rem;
+  .mobile-links {
+    display: flex;
+    flex-flow: column nowrap;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 100%;
+
+    align-items: center;
+    background-color: black;
+    opacity: 0.9;
+  }
+
+  .mobile-nav-link {
+    text-decoration: none;
+    font-size: large;
+    color: whitesmoke;
   }
 }
