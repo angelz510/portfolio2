@@ -10,7 +10,7 @@ const MobileNav = () => {
     <div className="mobile-nav-menu">
       <IoMenu
         className="menu-icon"
-        size="35px"
+        size="40px"
         color="white"
         onClick={() => setOpen(!open)}
       />

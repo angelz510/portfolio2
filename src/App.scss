@@ -9,7 +9,8 @@
 .app {
   background-attachment: fixed;
   background-color: black;
-  background-image: linear-gradient(0deg, #000, transparent 30%, transparent), url('./assets/cover/wportrait.png');
+  background-image: linear-gradient(0deg, #000, transparent 30%, transparent),
+    url("./assets/cover/wportrait.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 0 {
@@ -23,7 +24,8 @@
   .app {
     background-attachment: fixed;
     background-color: black;
-    background-image: linear-gradient(0deg, #000, transparent 50%), url('./assets/cover/mbwportrait.png');
+    background-image: linear-gradient(0deg, #000, transparent 50%),
+      url("./assets/cover/mbwportrait.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 74% 0px {

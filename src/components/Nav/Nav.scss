@@ -6,8 +6,6 @@
   padding-bottom: 0.94rem;
   padding-left: 6.25rem;
   display: flex;
-  // margin-right: 6.25rem;
-  // margin-left: 6.25rem;
   position: fixed;
   z-index: 1000;
   background-color: black;
@@ -41,30 +39,36 @@
   .mobile-nav-menu {
     display: flex;
     align-items: center;
-    opacity: 0.9;
-    background-color: black;
-    color: white;
-    top: 0;
-    height: 15%;
-    width: 100%;
+  }
+
+  .menu-icon {
+    // position: absolute;
+    // right: 5%;
+    // top: 1%;
   }
 
   .mobile-links {
-    display: flex;
-    flex-flow: column nowrap;
-    position: absolute;
-    top: 50px;
-    right: 0;
-    width: 100%;
-
-    align-items: center;
-    background-color: black;
-    opacity: 0.9;
+    // display: flex;
+    // flex-flow: column nowrap;
+    // position: absolute;
+    // top: 50px;
+    // right: 0;
+    // width: 100%;
+    // align-items: center;
+    // background-color: green;
+    // opacity: 0.85;
   }
 
   .mobile-nav-link {
     text-decoration: none;
+    // background-color: pink;
     font-size: large;
     color: whitesmoke;
+    margin-right: 1rem;
+    margin-left: 0.5rem;
+  }
+
+  .mobile-nav-link:focus {
+    color: $secondary;
   }
 }
