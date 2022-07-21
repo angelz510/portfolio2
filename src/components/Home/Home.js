@@ -18,11 +18,6 @@ const Home = () => {
       <div>
         <h3 className="home-description">Eager to learn and grow.</h3>
       </div>
-      <div>
-        <h3 className="home-description">
-          "Need experience for job, need job for experience." - The internet{" "}
-        </h3>
-      </div>
     </div>
   );
 };
